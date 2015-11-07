@@ -1,0 +1,51 @@
+---
+# Sass file (requires front matter, the dashes are enough)
+---
+@charset "utf-8";
+
+$navbar-font-size-brand: 22px;
+$navbar-font-size: $navbar-font-size-brand - 4px;
+$navbar-height: $navbar-font-size-brand + 1px;
+
+@import url("//fonts.googleapis.com/css?family=Josefin+Sans:300,400,700");
+
+// Use font in below sections:
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.navbar {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.btn {
+  font-family: "Josefin Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+// Adapt elements' size based on font:
+.navbar-brand {
+  font-size: $navbar-font-size-brand;
+  line-height: $navbar-height;
+  height: $navbar-height;
+}
+.navbar-nav > li > a {
+  font-size: $navbar-font-size;
+  line-height: $navbar-height;
+}
+@media (max-width: 767px) {
+  .navbar-nav .open .dropdown-menu > li > a {
+    line-height: $navbar-height;
+  }
+}

@@ -1,0 +1,24 @@
+programme: 
+  title: "Programme"
+  name: "programme"
+  url: "/programme/"
+rsvp:
+  title: "RSVP"
+  name: "rsvp"
+  url: "/rsvp/"
+transports:
+  title: "Transports"
+  name: "transports"
+  url: "/transports/"
+hebergement:
+  title: "Hébergement"
+  name: "hebergement"
+  url: "/hebergement/"
+region:
+  title: "Région"
+  name: "region"
+  url: "/region/"
+liste-de-mariage:
+  title: "Liste"
+  name: "liste-de-mariage"
+  url: "/liste-de-mariage/"

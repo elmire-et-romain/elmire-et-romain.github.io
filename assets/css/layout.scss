@@ -1,0 +1,34 @@
+---
+# Sass file (requires front matter, the dashes are enough)
+---
+@charset "utf-8";
+
+
+// Sticky header and footer:
+
+$header-height: 46px;
+$header-space: 4px;
+$footer-height: 30px;
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  padding-top: $header-height + $header-space;
+  margin-bottom: $footer-height; // Margin bottom by footer height.
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: $footer-height; // Set the fixed height of the footer here.
+}
+
+
+// Carousel on landing page:
+
+.carousel-inner > .item > img.pre-wed-center,
+.carousel-inner > .item > a > img.pre-wed-center {
+  margin: 0 auto;
+}
