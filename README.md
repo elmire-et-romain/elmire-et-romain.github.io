@@ -10,4 +10,4 @@ Elmire & Romain's Personal website:
 * compressed CSS
 * compressed HTML (using [jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html))
 
-URL: [http://www.elmire-et-romain.fr](http://www.elmire-et-romain.fr) / [http://elmire-et-romain.github.io](http://elmire-et-romain.github.io)
+URL: [http://www.elmire-et-romain.fr](http://www.elmire-et-romain.fr) / [http://marccarre.github.io/elmire-et-romain.github.io](http://marccarre.github.io/elmire-et-romain.github.io)

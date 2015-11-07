@@ -1,6 +1,6 @@
 # Site settings
 title: "Elmire & Romain"
-url: "http://www.elmire-et-romain.fr"  # the base hostname & protocol for your site
+url: ""  # the base hostname & protocol for your site
 baseurl: ""  # the subpath of your site, e.g. /blog/
 copyright_owner: Elmire Combescot & Romain Degoul
 
