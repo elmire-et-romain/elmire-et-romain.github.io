@@ -1,7 +1,7 @@
 elmire-et-romain.fr / elmire-et-romain.github.io
 ===================================
 
-[![Build Status](https://travis-ci.org/marccarre/elmire-et-romain.github.io.svg?branch=master)](https://travis-ci.org/marccarre/elmire-et-romain.github.io)
+[![Build Status](https://travis-ci.org/marccarre/elmire-et-romain.github.io.svg?branch=gh-pages)](https://travis-ci.org/marccarre/elmire-et-romain.github.io)
 
 Elmire & Romain's Personal website:
 * built with Jekyll (`jekyll serve --config=_config.yml,_config_cit.yml` to run locally)
