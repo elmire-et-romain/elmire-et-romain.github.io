@@ -13,4 +13,3 @@ Elmire & Romain's Personal website:
 URLs: 
 * [http://www.elmireetromain.fr](http://www.elmireetromain.fr)
 * [http://elmire-et-romain.github.io](http://elmire-et-romain.github.io)
-* [http://marccarre.github.io/elmire-et-romain.github.io](http://marccarre.github.io/elmire-et-romain.github.io)
