@@ -5,12 +5,13 @@
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | strip | prepend: ", " | prepend: site.description }}{% else %}{{ site.description }}{% endif %}" />
 
   <title>{% if page.title %}{{ page.title | prepend: " - " | prepend: site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  
+
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/simplex/bootstrap.min.css" rel="stylesheet" integrity="sha256-4nVETqQoIoCwuephcXpJ501G8B5sgBHb1ZsKU/D476I= sha512-cfSmkkLRDAcUNaJxRRWopCyEGX43UkWCAOl2wErYMBGOQVWwOsZ7IFuXScF9H/6nMGbmsgV4m5/xYfesyvHTxw==" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/layout.css" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/font-overrides.css" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/color-overrides.css" | prepend: site.baseurl | prepend: site.url }}" />
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemaps.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>
